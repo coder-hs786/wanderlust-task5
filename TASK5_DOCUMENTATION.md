@@ -12,7 +12,7 @@ Multi-stage Docker builds were implemented for the frontend and backend applicat
 
 ### Frontend
 
-The frontend uses:
+The frontend uses,
 
 - Node.js build stage
 - Nginx runtime stage
