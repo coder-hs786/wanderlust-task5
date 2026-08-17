@@ -12,7 +12,7 @@ Multi-stage Docker builds were implemented for the frontend and backend applicat
 
 ### Frontend
 
-The frontend uses:
+The frontend uses,
 
 - Node.js build stage
 - Nginx runtime stage
@@ -42,3 +42,17 @@ Verification:
 
 ```bash
 docker exec wanderlust-backend whoami
+
+
+##Google OAuth Configuration
+
+The backend uses Passport Google OAuth.
+
+The following environment variables are required:
+
+GOOGLE_CLIENT_ID
+GOOGLE_CLIENT_SECRET
+
+##The OAuth callback endpoint is:
+
+/api/auth/google/callback
